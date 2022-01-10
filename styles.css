@@ -35,3 +35,57 @@ html {
     color: white;
     text-align: center;
 }
+
+.section {
+    /* margin-top: 40px; */
+    padding: 20px 40px;
+    background-color: #AC8DAF;
+}
+
+.img {
+    /* width: auto; */
+    height: 450px;
+    width: 330px;
+    margin-left: 50px;
+    border-radius: 150px 150px 0 0;
+    border: 5px solid #484C7F;
+    box-sizing: border-box;
+    filter: drop-shadow(-20px 20px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+    color: #F1D4D4;
+    /* border: 2px solid #DDB6C6; */
+    text-shadow: 0pc 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quote {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.awards {
+    font-family: PT Serif;
+    color: #484C7F;
+    box-sizing: border-box;
+    background-color: #DDB6C6;
+    border-radius: 50px 0 0 50px;
+    padding: 10px 0;
+}
+
+.t-awards {
+    padding: 10px 0;
+}
+
+.nominee,
+.ttl {
+    padding-right: 50px;
+}
